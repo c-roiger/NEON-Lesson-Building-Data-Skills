@@ -7,7 +7,8 @@
 ##################
 
 require(knitr)
-dirs <- c("disturb-events-co13",
+
+dirs <- c("NEON-mosquito-data-viz",
           "OSIS-phenology-series",
           "R/dc-tabular-time-series",
           "R/tutorial-setup")
@@ -24,7 +25,7 @@ gitRepoPath <-"~/Documents/GitHub/NEON-Lesson-Building-Data-Skills"
 add.date <- "2016-08-23-"
 
 # set working dir - this is where the data are located
-wd <- "~/Documents/data/disturb-events-co13"
+wd <- "~/Documents/DataDirectory"
 
 
 ################### CONFIG BELOW IS REQUIRED BY JEKYLL - DON'T CHANGE ##########
